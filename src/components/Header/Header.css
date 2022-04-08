@@ -1,0 +1,233 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*::-moz-selection {
+    color: #fff;
+    background-color: #650010;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #650010;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+nav {
+    background-color: #f9f9f9;
+}
+
+nav .nav-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0.75rem;
+    align-items: center;
+}
+
+nav .nav-full {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 0 0.5rem;
+    color: #650010;
+}
+
+nav .nav-content .nav-left-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2.75rem;
+}
+
+nav .nav-content .nav-left-part img {
+    height: 70px;
+}
+
+nav .nav-content .nav-left-part p {
+    margin: 0;
+    padding: 0 10px;
+}
+
+nav .nav-content .nav-right-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.75rem;
+}
+
+nav .nav-content .nav-right-part .login {
+    background-color: #fff;
+    color: #000;
+    width: 210px;
+}
+
+
+/* Header end */
+
+
+/* Menu */
+
+menu {
+    background-color: #650010;
+    margin: 0;
+    padding: 0;
+}
+
+menu .nav-item .nav-link {
+    color: #fff;
+    margin: 2px 3rem;
+    font-size: 15px;
+    text-align: center;
+}
+
+.navbar {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: #650010;
+}
+
+.dropdown-item {
+    color: #fff !important;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #000 !important;
+}
+
+.nav-left-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2.75rem;
+}
+
+.nav-left-part img {
+    height: 75px;
+}
+
+.nav-left-part p {
+    margin: 0;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width:1260px) {
+    menu .nav-item .nav-link {
+        color: #fff;
+        margin: 2px 2rem;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1067px) {
+    menu .nav-item .nav-link {
+        color: #fff;
+        margin: 2px 1rem;
+        font-size: 13px;
+        text-align: center;
+    }
+    a.dropdown-item {
+        font-size: 13px;
+    }
+    .nav-left-part p {
+        font-size: 15px;
+    }
+    .nav-left-part .nav-full {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .navbar {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar .nav-left-part {
+        padding: 5px 0;
+    }
+    .navbar .nav-left-part p {
+        font-size: 12px;
+    }
+    .navbar .nav-left-part .nav-image img {
+        height: 45px;
+    }
+    .navbar .navbar-toggler {
+        border: none;
+        font-size: 1rem;
+    }
+    .navbar .navbar-toggler:focus {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+    .offcanvas-body {
+        background-color: #650010;
+    }
+    .offcanvas-body ul li {
+        margin: 1rem;
+        text-align: center;
+    }
+    .offcanvas-body ul li a {
+        color: #fff !important;
+    }
+    .offcanvas-body ul .login {
+        background-color: #f9f9f9 !important;
+    }
+    .offcanvas-body ul .login a {
+        color: #000 !important;
+    }
+    .offcanvas-body ul li:hover {
+        background-color: #f9f9f9 !important;
+        color: #650010 !important;
+    }
+    .offcanvas-body ul li:hover a {
+        color: #fff !important;
+    }
+    .dropdown-toggle:hover {
+        color: #000
+    }
+    .navbar-nav .nav-link:focus {
+        color: #000 !important;
+    }
+    .offcanvas-body .dropdown-menu li a {
+        color: #f9f9f9 !important;
+    }
+    .offcanvas-body .dropdown-menu li {
+        color: #f9f9f9 !important;
+    }
+    .offcanvas-body .dropdown-menu .dropdown-item {
+        color: #fff !important;
+    }
+    .offcanvas-body .dropdown-menu .dropdown-item:hover {
+        color: #000 !important;
+    }
+    .nav {
+        display: none;
+    }
+    nav .nav-content {
+        display: none;
+    }
+}
+
+
+/* Header part ends here */
+
+.nav-login {
+    background-color: #fff;
+}

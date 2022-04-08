@@ -1,0 +1,65 @@
+body {
+    overflow-x: hidden;
+}
+
+h3{
+    text-align: center;
+    color:#650010;
+    padding:2rem 0 0 0;
+}
+
+.contactsocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactsocial h3 {
+    font-size: calc(1.3rem + .6vw);
+    margin: 20px 0;
+  }
+  .sbox{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+    background-color:#fff;
+    padding:10px 30px;
+    width:350px;
+    margin:7px 0;
+  }
+  .sbox:hover{
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  .sbox p{
+    text-align: left !important;
+    margin:0 30px;
+  }
+  .sbox img{
+    height:35px;
+  }
+
+.contactsocial{
+    padding:2rem;
+}
+.contactsocial .social {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.contactsocial .social .sbox {
+    margin:10px  25px;
+}
+
+@media (max-width: 768px) {
+    .sbox {
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .sbox {
+        width: 200px;
+    }
+}
